@@ -1,0 +1,48 @@
+/* 1. Ensure header takes minimal space */
+.header {
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
+  
+  /* 2. Adjust navbar if needed */
+  .nav__header {
+    padding: 1rem 2rem;
+  }
+  
+  .nav__links {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* 3. Reduce space before section */
+  .section__container {
+    padding-top: 2rem; /* Reduce this if too much space */
+    margin-top: 0;     /* Ensure no extra top margin */
+  }
+  
+  /* Optional: fine-tune slider/header image height */
+  .header__slider {
+    height: 300px; /* Adjust to your desired height */
+    overflow: hidden;
+  }
+  
+  .header__slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* 4. Adjust spacing in portfolio grid if needed */
+  .portfolio__container {
+    margin-top: 0;
+    padding-top: 1rem;
+  }
+  
+  /* Optional: ensure body has no default margin */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
